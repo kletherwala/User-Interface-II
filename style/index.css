@@ -43,13 +43,7 @@ body{
     color: 4f4f4f;
     font-family: 'Roboto Mono', monospace;
 }
-h1{
-    font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
-}
-section{
-    padding:4% 0;
-}
+
 a{
     text-decoration:none;
     font-family: 'Roboto Mono', monospace;
@@ -57,14 +51,56 @@ a{
 
 /* header section styles */
 nav{
-    padding: 2% 0;
-}
-nav a{
-    display:inline-block;
-    width: 10%;
-    padding: 1% 0;
-    border-radius: 10px;
-    text-align: center;
-    color: red;
+    display: flex;
+    justify-content: space-between;
 }
 
+nav a{
+
+}
+.topsection{
+    display: flex;
+    justify-content: center;
+}
+.image-button{
+    background-image: url("https://picsum.photos/600/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    width: 600px;
+    height: 400px;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.pelement{
+    text-align: center;
+}
+button{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: black;
+    color:white;
+    border: white solid 1px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+    
+}
